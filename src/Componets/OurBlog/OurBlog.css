@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+.OurBlog_Card_main{
+
+}
+.OurBlog_Card_Img{
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+.OurBlog_Card_heaindg{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #0A043C;
+    font-weight: bold;
+    text-align: center;
+}
+.OurBlog_Card_des{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #79869F;
+    text-align: center;
+}

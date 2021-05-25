@@ -42,11 +42,20 @@
 .Tokopepes_img{
     width: 39px;
     height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .Tokopepes_heading{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: #000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
 }
 
 .Tokopepes_main{
@@ -95,4 +104,5 @@
     font-size: 20px;
     color:#AAAAAA;
     font-family: 'Poppins', sans-serif;
+    border-bottom: 2px dotted gray;
 }

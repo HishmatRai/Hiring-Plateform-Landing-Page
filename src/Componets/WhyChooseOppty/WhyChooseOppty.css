@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+.numbering_counter_main{
+background-color: #E9F1FE;
+width: 55px;
+height: 55px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.numbering_counter_show{
+    font-family: 'Poppins', sans-serif;
+    color: #2F8EED;
+    font-size: 60px;
+    font-weight: bold;
+}
+.WhyChooseOppty_Card_main{
+    background-color: white;
+}
+.WhyChooseOppty_heaindg{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0A043C;
+}
+.WhyChooseOppty_des{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #79869F;
+}
+.learn_more_btn{
+    font-size: 14px;
+    color: #79869F;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

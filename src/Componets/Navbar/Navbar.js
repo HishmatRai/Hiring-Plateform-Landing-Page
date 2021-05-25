@@ -7,7 +7,7 @@ const Navbar = (props) => {
         <div className="header header-fixed">
         <div className="navbar container">
             <div className="logo">
-            <img src={Logo} className="Logo"/>
+            <img src={Logo} className="LogoImg"/>
             </div>
             <input type="checkbox" id="navbar-toggle"/ >
             <label for="navbar-toggle"><i></i></label>
@@ -17,8 +17,10 @@ const Navbar = (props) => {
                     <li>About us</li>
                     <li>Portfolio</li>
                     <li>Contacts</li>
+                    <li className="navbar_get_Started_btn">Get started</li>
                 </ul>
-            </nav>        
+            </nav>  
+              
         </div>
     </div>
 

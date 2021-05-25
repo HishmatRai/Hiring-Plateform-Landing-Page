@@ -7,6 +7,8 @@ import HeaderImg from './../../img/header_img.png'
 import { BsCircleFill } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 import { RiSearchLine } from "react-icons/ri";
+import { MdKeyboardVoice } from "react-icons/md";
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -29,16 +31,16 @@ export default function HowItWorks() {
                         <div className="search_icon_main">
                             <RiSearchLine color="white"/>
                         </div>
-                        <p className="search_heaindg">Find your dream job and enter your portfolio </p>
-                        <p className="search_des">Let's find opportunities for you to be successful and don't miss this golden opportunity</p>
+                        <p className="search_heaindg">Find your dream job <br/>and enter your portfolio </p>
+                        <p className="search_des">Let's find opportunities for you to be <br/>successful and don't miss this <br/>golden opportunity</p>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={4}>
                     <div className="search_Card_main">
                         <div className="search_icon_main">
-                            <RiSearchLine color="white"/>
+                            <MdKeyboardVoice color="white"/>
                         </div>
-                        <p className="search_heaindg">Find your dream job and enter your portfolio </p>
+                        <p className="search_heaindg">Find your dream job <br/>and enter your portfolio </p>
                         <p className="search_des">Let's find opportunities for you to be successful and don't miss this golden opportunity</p>
                     </div>
                 </Grid>

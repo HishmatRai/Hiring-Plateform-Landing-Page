@@ -23,7 +23,7 @@ export default function CenteredGrid() {
     return (
         <div className={classes.root}>
             <Grid container spacing={3}>
-                <Grid item xs={12} sm={8}>
+                <Grid item xs={12} sm={6} >
                     <div>
                         <p className="heading">We are helping you</p>
                         <p className="heading2">Where Talent <br />Meets Technology</p>
@@ -32,8 +32,8 @@ export default function CenteredGrid() {
                         <button className="view_demo_btn">VIEW DEMO</button>
                     </div>
                 </Grid>
-                <Grid item xs={12} sm={4}>
-                    <div>
+                <Grid item xs={12} sm={6} >
+                    <div className="header_card_second_Section">
                         <img src={HeaderImg} className="HeaderImg" />
                         <div className="Live_show_main">
                             <p className="live_heading">Live <BsCircleFill /></p>
@@ -44,10 +44,10 @@ export default function CenteredGrid() {
                                 <div className="empty_circle"></div>
                                 <div className="empty_circle"></div>
                                 <div className="counter_circle">
-                                    <span>10+</span>
+                                10+
                                 </div>
                                 </div>
-                                <button>
+                                <button className="join_now_btn">
                                 Join now
                                 <BsArrowRight />
                                 </button>

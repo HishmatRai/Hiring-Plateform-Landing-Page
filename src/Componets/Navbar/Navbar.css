@@ -2,7 +2,7 @@ body {
     margin: 0;
   }
   .header-fixed {
-      position: fixed;
+      /* position: fixed; */
       top: 0;
       z-index: 1;
       width: 100%;
@@ -20,20 +20,17 @@ body {
   .navbar .logo {
       flex: 3; 
   }
-  
-  .navbar .logo a {
+    .navbar .logo a {
       display: block;
       font-size: 30px;
       font-weight: bold;
       color: #fff;
       text-decoration: none;
   }
-  .navbar .logo a:hover {
-    color: #777777;
-  }
+
   
   .navbar nav {
-      flex: 8;
+      flex: 4;
   }
   
   .navbar label {
@@ -130,16 +127,11 @@ body {
         cursor: pointer;
         transition: all 0.3s ease-out;
       }
-      .navbar nav li:hover {
-        background: #212121;
-      }
-      .navbar nav li:hover a {
-        color: #fff;
-        transition: all 0.3s ease-out;
-      }
+
       .navbar nav li a {
         color: #212121;
       }
+    
   }
   
   @media (min-width: 768px) {
@@ -153,6 +145,7 @@ body {
       }
       .navbar nav li {
         flex: 1;
+        cursor: pointer;
       }
       .navbar nav li a {
         display: block;
@@ -165,16 +158,33 @@ body {
       .navbar nav li.active {
         background: #555;  
       }
-      .navbar nav li:hover {
-        background: #333;
-      }
+   
       .navbar label {
         display: none;
       }
+      
   }
   
-  .Logo{
+  .LogoImg{
       width: 100px;
       height: 77px;
       margin-left: 50px;
+      margin-top: 20px;
+  }
+  .navbar_get_Started_btn{
+    background-color: #8DFAF6;
+    border-radius: 100px;
+    font-size: 15px;
+    color: #080808;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    
+    .LogoImg{
+      width: 100px;
+      height: 57px;
+      margin-left: 50px;
+      margin-top: 20px;
+  }
   }

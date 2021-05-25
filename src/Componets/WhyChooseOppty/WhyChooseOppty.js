@@ -25,30 +25,33 @@ export default function WhyChooseOppty() {
         <div className={classes.root}>
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={4}>
-                    <div className="search_Card_main">
-                        <div className="search_icon_main">
-                            <RiSearchLine color="white"/>
+                    <div className="WhyChooseOppty_Card_main">
+                        <div className="numbering_counter_main">
+                        <p className="numbering_counter_show">1</p>
                         </div>
-                        <p className="search_heaindg">Find your dream job and enter your portfolio </p>
-                        <p className="search_des">Let's find opportunities for you to be successful and don't miss this golden opportunity</p>
+                        <p className="WhyChooseOppty_heaindg">Build a professional <br/>Programmer</p>
+                        <p className="WhyChooseOppty_des">We Always help your business <br/>for growth up as soon <br/>possible</p>
+                        <button className="learn_more_btn">LEARN MORE <BsArrowRight/></button>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={4}>
-                    <div className="search_Card_main">
-                        <div className="search_icon_main">
-                            <RiSearchLine color="white"/>
+                    <div className="WhyChooseOppty_Card_main">
+                        <div className="numbering_counter_main">
+                        <p className="numbering_counter_show">1</p>
                         </div>
-                        <p className="search_heaindg">Find your dream job and enter your portfolio </p>
-                        <p className="search_des">Let's find opportunities for you to be successful and don't miss this golden opportunity</p>
+                        <p className="WhyChooseOppty_heaindg">Build a professional <br/>Programmer</p>
+                        <p className="WhyChooseOppty_des">We Always help your business <br/>for growth up as soon <br/>possible</p>
+                        <button className="learn_more_btn">LEARN MORE <BsArrowRight/></button>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={4}>
-                    <div className="search_Card_main">
-                        <div className="search_icon_main">
-                            <RiSearchLine color="white"/>
+                    <div className="WhyChooseOppty_Card_main">
+                        <div className="numbering_counter_main">
+                        <p className="numbering_counter_show">1</p>
                         </div>
-                        <p className="search_heaindg">Find your dream job and enter your portfolio </p>
-                        <p className="search_des">Let's find opportunities for you to be successful and don't miss this golden opportunity</p>
+                        <p className="WhyChooseOppty_heaindg">Build a professional <br/>Programmer</p>
+                        <p className="WhyChooseOppty_des">We Always help your business <br/>for growth up as soon <br/>possible</p>
+                        <button className="learn_more_btn">LEARN MORE <BsArrowRight/></button>
                     </div>
                 </Grid>
             </Grid>

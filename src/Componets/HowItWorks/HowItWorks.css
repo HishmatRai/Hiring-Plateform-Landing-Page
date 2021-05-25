@@ -23,6 +23,7 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     display: flex;
+    margin:  0 auto;
 }
 
 .search_heaindg{
@@ -30,10 +31,12 @@ cursor: pointer;
     color: #000000;
     font-weight:bold;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .search_des{
     font-size: 14px;
     color: #707070;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }

@@ -6,7 +6,8 @@ import Grid from '@material-ui/core/Grid';
 import Heading from './../../Componets/Header/Header';
 import CompanyHireWithUs from './../../Componets/CompanyHireWithUs/CompanyHireWithUs'
 import './Home.css'
-import HowItWorks from './../../Componets/HowItWorks/HowItWorks'
+import HowItWorks from './../../Componets/HowItWorks/HowItWorks';
+import WhyChooseOppty from './../../Componets/WhyChooseOppty/WhyChooseOppty'
 const Home = (props) => {
 
     return (
@@ -28,6 +29,15 @@ const Home = (props) => {
                 <p className="HowItWorks_heading">How It Works</p>
                 <p className="HowItWorks_des">how this application works to help you in finding a job, let's learn and feel <br/>the benefits for the convenience of your life</p>
                 <HowItWorks />
+            </div>
+
+              {/* -----------------------------> WhyChooseOppty <------------------------- */}
+              <div className="WhyChooseOppty_main">
+                  <div className="WhyChooseOppty_header_main">
+                <p className="WhyChooseOppty_heading">Why Choose Oppty?</p>
+                <p className="WhyChooseOppty_Des">Find your favourite jobs and gets the benefits <br />for yourself</p>
+                  </div>
+                <WhyChooseOppty />
             </div>
         </div>
     );

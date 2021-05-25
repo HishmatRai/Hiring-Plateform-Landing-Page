@@ -45,3 +45,25 @@
     color: #AAAAAA;
     font-size: 14px;
 }
+.WhyChooseOppty_main{
+    width: 90%;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+.WhyChooseOppty_header_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.WhyChooseOppty_heading{
+    font-family: 'Poppins', sans-serif;
+    color: #0A043C;
+    font-size: 40px;
+    font-weight: bold;
+}
+.WhyChooseOppty_Des{
+    font-family: 'Poppins', sans-serif;
+    color: #79869F;
+    font-size: 20px;
+}

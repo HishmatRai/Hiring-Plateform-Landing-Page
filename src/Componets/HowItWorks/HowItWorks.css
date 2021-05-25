@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+.search_Card_main:hover{
+border: 1px solid #FF7A00;
+padding: 20px;
+border-radius: 20px;
+cursor: pointer;
+}
+.search_Card_main{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    }
+    .search_Card_main:active{
+        border: 1px solid #FF7A00;
+        padding: 20px;
+        border-radius: 20px;
+        }
+.search_icon_main{
+    width: 48px;
+    height: 48px;
+    background-color: #FF7A00;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.search_heaindg{
+    font-size: 20px;
+    color: #000000;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search_des{
+    font-size: 14px;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+.Papatonq_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Papatonq_img{
+    width: 53px;
+    height: 47px;
+    margin-right: 20px;
+}
+
+.Papatonq_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #0A3370
+}
+
+.Papatonq_des{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #AAAAAA
+}
+.Gologolo_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Gologolo_img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Gologolo_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.Tokopepes_img{
+    width: 39px;
+    height: 48px;
+}
+.Tokopepes_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.Tokopepes_main{
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gorgom_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Gorgom_heading{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Gorgom_des{
+    font-size: 14px;
+    color: #AAAAAA;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Gorgom_img{
+    width: 35px;
+    height: 39px;
+    margin-right: 10px;
+}
+
+.Circle_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Circle_img{
+    width: 61px;
+    height: 54px;
+    margin-right: 10px;
+}
+
+.Circle_heading{
+    font-size: 20px;
+    color:#AAAAAA;
+    font-family: 'Poppins', sans-serif;
+}

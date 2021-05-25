@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+.heading{
+    color: #FF7A00;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.heading2{
+color: white;
+font-size: 48px;
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+}
+.sub_heading{
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.view_demo_btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background-color: #8DFAF6;
+    border: none;
+    border-radius: 10px;
+}
+
+.HeaderImg{
+    /* width: 100%; */
+
+}
+
+.Live_show_main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.live_heading{
+    color: #16C75D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.live_Des{
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.live_total_counter_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.empty_circle{
+    width: 32px;
+    height: 32px;
+    background-color: #AAAAAA;
+    border-radius: 100px;
+    margin-right: -10px;
+    border: 1px solid white;
+}
+.counter_circle{
+    width: 32px;
+    height: 32px;
+    background-color: #FF577F;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.all_circles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

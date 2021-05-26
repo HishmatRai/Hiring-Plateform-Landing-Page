@@ -1,12 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import './OurBlog.css';
-import HeaderImg from './../../img/header_img.png'
-import { BsCircleFill } from "react-icons/bs";
-import { BsArrowRight } from "react-icons/bs";
-import { RiSearchLine } from "react-icons/ri";
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,

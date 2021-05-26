@@ -36,3 +36,11 @@ justify-content: center;
     background-color: white;
     cursor: pointer;
 }
+.learn_more_btn2{
+    font-size: 14px;
+    color: #2979F2;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

@@ -20,6 +20,7 @@
 .PowerCompanyIcon{
     width: 32px;
     height: 36px;
+    margin-right: 20px;
 }
 .PowerCompany_Card_heading{
     font-family: 'Poppins', sans-serif;
@@ -31,6 +32,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: #79869F;
+    margin-top: -15px;
 }
 .BestPartnerinLocation_view_all_btn{
     border: none;
@@ -40,4 +42,35 @@
     color: #2979F2;
     background-color: white;
     font-family: 'Poppins', sans-serif;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .BestPartnerinLocationImg{
+        width: 100%;
+        height: 300px;
+    }
+    .BestPartnerinLocation_view_all_btn{
+        border: none;
+        border: 2px solid #2F8EED;
+        border-radius: 10px;
+        font-size: 14px;
+        color: #2979F2;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 170px;
+        height: 55px;
+        cursor: pointer;
+        margin-top: 50px;
+        font-weight: bold;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
 }

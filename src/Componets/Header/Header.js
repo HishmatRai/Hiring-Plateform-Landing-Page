@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import './Header.css';
 import HeaderImg from './../../img/header_img.png'
@@ -40,15 +39,15 @@ export default function CenteredGrid() {
                             <p className="live_Des">Gain extensive connections and opportunities for success</p>
                             <div className="live_total_counter_main">
                                 <div className="all_circles">
-                                <div className="empty_circle"></div>
-                                <div className="empty_circle"></div>
-                                <div className="empty_circle"></div>
-                                <div className="counter_circle">
-                                10+
+                                    <div className="empty_circle"></div>
+                                    <div className="empty_circle"></div>
+                                    <div className="empty_circle"></div>
+                                    <div className="counter_circle">
+                                        10+
                                 </div>
                                 </div>
                                 <button className="join_now_btn">
-                                Join now
+                                    Join now
                                 <BsArrowRight />
                                 </button>
                             </div>

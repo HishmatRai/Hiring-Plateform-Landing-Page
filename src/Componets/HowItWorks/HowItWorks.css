@@ -26,6 +26,16 @@ cursor: pointer;
     margin:  0 auto;
 }
 
+.search_icon_main2{
+    width: 48px;
+    height: 48px;
+    background-color: #FFF1E5;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin:  0 auto;
+}
 .search_heaindg{
     font-size: 20px;
     color: #000000;

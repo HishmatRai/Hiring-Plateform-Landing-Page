@@ -77,10 +77,12 @@ body {
   .header #navbar-toggle:checked ~ .menu {
     visibility: visible;
     opacity: 0.99;
+    background: #0A043C;
   }
   .header #navbar-toggle:checked ~ label {
-    background: #212121;
-    border-radius: 50%;    
+    background: #0A043C;
+    border-radius: 50%;   
+    border: 2px solid white; 
   }
   .header #navbar-toggle:checked ~ label i {
     background: transparent;
@@ -119,9 +121,9 @@ body {
       .navbar nav li {
         display: block;
         text-align: center;
-        padding: 20px 0;
+        padding: 5px 0;
         text-align: center;
-        font-size: 50px;
+        font-size: 20px;
         min-height: 50px;
         font-weight: bold;
         cursor: pointer;
@@ -130,6 +132,16 @@ body {
 
       .navbar nav li a {
         color: #212121;
+      }
+      .navbar_get_Started_btn{
+        background-color: #8DFAF6;
+        border-radius: 100px;
+        font-size: 15px;
+        color: #080808;
+        font-weight: bold;
+        margin-right: 20px;
+        width: 80%;
+        margin: 0 auto;
       }
     
   }

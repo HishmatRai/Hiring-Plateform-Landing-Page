@@ -45,23 +45,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin-right: 10px;
+
 }
 .Tokopepes_heading{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: #000000;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: -20px;
 }
 
 .Tokopepes_main{
-    align-self: center;
-    align-items: center;
-    justify-content: center;
+display: flex;
+flex-direction: row;
+align-items: center;
 }
 
 .Gorgom_main{

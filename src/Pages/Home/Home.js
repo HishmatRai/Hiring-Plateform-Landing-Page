@@ -1,8 +1,5 @@
 import React from "react";
 import Navbar from "./../../Componets/Navbar/Navbar";
-import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
 import Heading from "./../../Componets/Header/Header";
 import CompanyHireWithUs from "./../../Componets/CompanyHireWithUs/CompanyHireWithUs";
 import "./Home.css";
@@ -16,7 +13,7 @@ const Home = (props) => {
   return (
     <div>
       <div className="top_main">
-          <Navbar/>
+        <Navbar history={props.history}/>
         {/* -----------------------------> Heading <------------------------- */}
         <div className="Heading_main">
           <Heading />
